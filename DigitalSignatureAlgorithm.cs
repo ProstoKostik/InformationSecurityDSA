@@ -18,27 +18,32 @@ namespace DSA
         /// Параметр q
         /// </summary>
         private BigInteger _paramQ;
+
         /// <summary>
         /// Параметр p
         /// </summary>
         private BigInteger _paramP;
+
         /// <summary>
         /// Результат частного (p-1)/q
         /// </summary>
         private BigInteger _paramT;
+
         /// <summary>
         /// Параметр g
         /// </summary>
         private BigInteger _paramG;
+
         /// <summary>
         /// Закрытый ключ
         /// </summary>
         private BigInteger _paramX;
+
         /// <summary>
         /// Параметр y
         /// </summary>
         private BigInteger _paramY;
-        
+
         /// <summary>
         /// Проверка подписи
         /// </summary>
@@ -76,6 +81,7 @@ namespace DSA
             BigInteger result = (b1 * b3 + b2) % (_paramQ - 1);
             return result == BigInteger.Zero ? BigInteger.One : result;
         }
+
         /// <summary>
         /// Задать число g, такого, что  его мультипликативный порядок по модулю p равен q
         /// </summary>
@@ -86,17 +92,16 @@ namespace DSA
             {
                 h += BigInteger.One;
                 _paramG = BigInteger.ModPow(h, _paramT, _paramP);
-            }
-            while (_paramG < 2);
+            } while (_paramG < 2);
         }
+
         /// <summary>
         /// Подпись сообщения
         /// </summary>
         /// <param name="text">Текст для подписи</param>
         /// <returns>Подпись, пара r и s</returns>
-        public StringBuilder GenerateDigitalSignature(string text)
+        public String GenerateDigitalSignature(string text)
         {
-
             BigInteger hash = GetHashCode(text);
             BigInteger k;
             BigInteger r;
@@ -109,19 +114,14 @@ namespace DSA
                     k = GetRandom(_paramQ);
                     //Вычисление параметра r
                     r = BigInteger.ModPow(_paramG, k, _paramP) % _paramQ;
-                }
-                while (r == BigInteger.Zero);
+                } while (r == BigInteger.Zero);
                 //Вычисление параметра s
                 s = (BigInteger.ModPow(k, _paramQ - 2, _paramQ) * ((hash + _paramX * r) % _paramQ)) % _paramQ;
-            }
-            while (s == BigInteger.Zero);
-
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine($"r = {r}");
-            sb.AppendLine($"s = {s}");
-            //Подпись
-            return sb;
+            } while (s == BigInteger.Zero);
+            
+            return $"r = {r}\ns = {s}";
         }
+
         /// <summary>
         /// Проверка подписи
         /// </summary>
@@ -146,6 +146,7 @@ namespace DSA
             Check = v == r;
             return $"v = {v}";
         }
+
         /// <summary>
         /// Получить параметр v
         /// </summary>
@@ -158,7 +159,7 @@ namespace DSA
             BigInteger v2 = BigInteger.ModPow(_paramY, u2, _paramP);
             BigInteger v3 = (v1 * v2) % _paramP;
 
-            return v3 % _paramQ; 
+            return v3 % _paramQ;
         }
 
         /// <summary>
@@ -171,10 +172,7 @@ namespace DSA
             SHA256 hash = new SHA256Managed();
             byte[] hashByte = hash.ComputeHash(Encoding.Default.GetBytes(text));
             BigInteger hashInt = new BigInteger(hashByte);
-
-            BigInteger result = hashInt & _paramQ;
-            return result;
+            return hashInt & _paramQ;
         }
     }
 }
- 

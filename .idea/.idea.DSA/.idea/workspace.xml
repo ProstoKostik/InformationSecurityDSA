@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4c58bf-97e3-4d07-a8b6-80556af4f637" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FormMain.cs" afterPath="$PROJECT_DIR$/FormMain.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DigitalSignatureAlgorithm.cs" afterPath="$PROJECT_DIR$/DigitalSignatureAlgorithm.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +14,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FormMain.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FormMain.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FormMain.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+            <state relative-caret-position="-552">
+              <caret line="103" column="18" lean-forward="false" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
               <folding>
                 <marker date="1521295134000" expanded="false" signature="6:272" ph="..." />
                 <marker date="1521295134000" expanded="true" signature="287:5091" ph="{...}" />
@@ -59,37 +59,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DigitalSignatureAlgorithm.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DigitalSignatureAlgorithm.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DigitalSignatureAlgorithm.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-886">
-              <caret line="84" column="14" lean-forward="false" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+            <state relative-caret-position="504">
+              <caret line="169" column="51" lean-forward="true" selection-start-line="169" selection-start-column="51" selection-end-line="169" selection-end-column="51" />
               <folding>
-                <marker date="1521294532000" expanded="false" signature="6:202" ph="..." />
-                <marker date="1521294532000" expanded="true" signature="217:5956" ph="{...}" />
-                <marker date="1521294532000" expanded="true" signature="224:287" ph="/// Класс, реализующий DSA ... " />
-                <marker date="1521294532000" expanded="true" signature="330:5954" ph="{...}" />
-                <marker date="1521294532000" expanded="true" signature="345:404" ph="/// Параметр q ... " />
-                <marker date="1521294532000" expanded="true" signature="449:508" ph="/// Параметр p ... " />
-                <marker date="1521294532000" expanded="true" signature="553:628" ph="/// Результат частного (p-1)/q ... " />
-                <marker date="1521294532000" expanded="true" signature="673:732" ph="/// Параметр g ... " />
-                <marker date="1521294532000" expanded="true" signature="777:839" ph="/// Закрытый ключ ... " />
-                <marker date="1521294532000" expanded="true" signature="884:943" ph="/// Параметр y ... " />
-                <marker date="1521294532000" expanded="true" signature="997:1062" ph="/// Проверка подписи ... " />
-                <marker date="1521294532000" expanded="true" signature="1112:1260" ph="/// DSA с параметрами q и p ... " />
-                <marker date="1521294532000" expanded="true" signature="1329:1582" ph="{...}" />
-                <marker date="1521294532000" expanded="true" signature="1592:1804" ph="/// Устанавливает рандомное значение заданного параметра, которое больше 0 и не превышает maxValue ... " />
-                <marker date="1521294532000" expanded="true" signature="1862:2387" ph="{...}" />
-                <marker date="1521294532000" expanded="true" signature="2396:2523" ph="/// Задать число g, такого, что  его мультипликативный порядок по модулю p равен q ... " />
-                <marker date="1521294532000" expanded="true" signature="2556:2798" ph="{...}" />
-                <marker date="1521294532000" expanded="true" signature="2807:2981" ph="/// Подпись сообщения ... " />
-                <marker date="1521294532000" expanded="true" signature="3048:3929" ph="{...}" />
-                <marker date="1521294532000" expanded="true" signature="3938:4173" ph="/// Проверка подписи ... " />
-                <marker date="1521294532000" expanded="true" signature="4244:4915" ph="{...}" />
-                <marker date="1521294532000" expanded="true" signature="4924:5132" ph="/// Получить параметр v ... " />
-                <marker date="1521294532000" expanded="true" signature="5199:5441" ph="{...}" />
-                <marker date="1521294532000" expanded="true" signature="5451:5610" ph="/// Получить хеш-код сообщения ... " />
-                <marker date="1521294532000" expanded="true" signature="5662:5948" ph="{...}" />
+                <marker date="1521296664000" expanded="false" signature="6:202" ph="..." />
+                <marker date="1521296664000" expanded="true" signature="217:5744" ph="{...}" />
+                <marker date="1521296664000" expanded="true" signature="224:287" ph="/// Класс, реализующий DSA ... " />
+                <marker date="1521296664000" expanded="true" signature="330:5742" ph="{...}" />
+                <marker date="1521296664000" expanded="true" signature="345:404" ph="/// Параметр q ... " />
+                <marker date="1521296664000" expanded="true" signature="450:509" ph="/// Параметр p ... " />
+                <marker date="1521296664000" expanded="true" signature="555:630" ph="/// Результат частного (p-1)/q ... " />
+                <marker date="1521296664000" expanded="true" signature="676:735" ph="/// Параметр g ... " />
+                <marker date="1521296664000" expanded="true" signature="781:843" ph="/// Закрытый ключ ... " />
+                <marker date="1521296664000" expanded="true" signature="889:948" ph="/// Параметр y ... " />
+                <marker date="1521296664000" expanded="true" signature="994:1059" ph="/// Проверка подписи ... " />
+                <marker date="1521296664000" expanded="true" signature="1109:1257" ph="/// DSA с параметрами q и p ... " />
+                <marker date="1521296664000" expanded="true" signature="1326:1579" ph="{...}" />
+                <marker date="1521296664000" expanded="true" signature="1589:1801" ph="/// Устанавливает рандомное значение заданного параметра, которое больше 0 и не превышает maxValue ... " />
+                <marker date="1521296664000" expanded="true" signature="1859:2384" ph="{...}" />
+                <marker date="1521296664000" expanded="true" signature="2394:2521" ph="/// Задать число g, такого, что  его мультипликативный порядок по модулю p равен q ... " />
+                <marker date="1521296664000" expanded="true" signature="2554:2784" ph="{...}" />
+                <marker date="1521296664000" expanded="true" signature="2794:2968" ph="/// Подпись сообщения ... " />
+                <marker date="1521296664000" expanded="true" signature="3028:3757" ph="{...}" />
+                <marker date="1521296664000" expanded="true" signature="3767:4002" ph="/// Проверка подписи ... " />
+                <marker date="1521296664000" expanded="true" signature="4073:4744" ph="{...}" />
+                <marker date="1521296664000" expanded="true" signature="4754:4962" ph="/// Получить параметр v ... " />
+                <marker date="1521296664000" expanded="true" signature="5029:5270" ph="{...}" />
+                <marker date="1521296664000" expanded="true" signature="5280:5439" ph="/// Получить хеш-код сообщения ... " />
+                <marker date="1521296664000" expanded="true" signature="5491:5736" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,8 +107,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DigitalSignatureAlgorithm.cs" />
         <option value="$PROJECT_DIR$/FormMain.cs" />
+        <option value="$PROJECT_DIR$/DigitalSignatureAlgorithm.cs" />
       </list>
     </option>
   </component>
@@ -208,12 +208,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521294105602</updated>
-      <workItem from="1521294107002" duration="1006000" />
+      <workItem from="1521294107002" duration="1206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1006000" />
+    <option name="totallyTimeSpent" value="1206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,44 +257,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DigitalSignatureAlgorithm.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-886">
-          <caret line="84" column="14" lean-forward="false" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
-          <folding>
-            <marker date="1521294532000" expanded="false" signature="6:202" ph="..." />
-            <marker date="1521294532000" expanded="true" signature="217:5956" ph="{...}" />
-            <marker date="1521294532000" expanded="true" signature="224:287" ph="/// Класс, реализующий DSA ... " />
-            <marker date="1521294532000" expanded="true" signature="330:5954" ph="{...}" />
-            <marker date="1521294532000" expanded="true" signature="345:404" ph="/// Параметр q ... " />
-            <marker date="1521294532000" expanded="true" signature="449:508" ph="/// Параметр p ... " />
-            <marker date="1521294532000" expanded="true" signature="553:628" ph="/// Результат частного (p-1)/q ... " />
-            <marker date="1521294532000" expanded="true" signature="673:732" ph="/// Параметр g ... " />
-            <marker date="1521294532000" expanded="true" signature="777:839" ph="/// Закрытый ключ ... " />
-            <marker date="1521294532000" expanded="true" signature="884:943" ph="/// Параметр y ... " />
-            <marker date="1521294532000" expanded="true" signature="997:1062" ph="/// Проверка подписи ... " />
-            <marker date="1521294532000" expanded="true" signature="1112:1260" ph="/// DSA с параметрами q и p ... " />
-            <marker date="1521294532000" expanded="true" signature="1329:1582" ph="{...}" />
-            <marker date="1521294532000" expanded="true" signature="1592:1804" ph="/// Устанавливает рандомное значение заданного параметра, которое больше 0 и не превышает maxValue ... " />
-            <marker date="1521294532000" expanded="true" signature="1862:2387" ph="{...}" />
-            <marker date="1521294532000" expanded="true" signature="2396:2523" ph="/// Задать число g, такого, что  его мультипликативный порядок по модулю p равен q ... " />
-            <marker date="1521294532000" expanded="true" signature="2556:2798" ph="{...}" />
-            <marker date="1521294532000" expanded="true" signature="2807:2981" ph="/// Подпись сообщения ... " />
-            <marker date="1521294532000" expanded="true" signature="3048:3929" ph="{...}" />
-            <marker date="1521294532000" expanded="true" signature="3938:4173" ph="/// Проверка подписи ... " />
-            <marker date="1521294532000" expanded="true" signature="4244:4915" ph="{...}" />
-            <marker date="1521294532000" expanded="true" signature="4924:5132" ph="/// Получить параметр v ... " />
-            <marker date="1521294532000" expanded="true" signature="5199:5441" ph="{...}" />
-            <marker date="1521294532000" expanded="true" signature="5451:5610" ph="/// Получить хеш-код сообщения ... " />
-            <marker date="1521294532000" expanded="true" signature="5662:5948" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FormMain.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+        <state relative-caret-position="-552">
+          <caret line="103" column="18" lean-forward="false" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
           <folding>
             <marker date="1521295134000" expanded="false" signature="6:272" ph="..." />
             <marker date="1521295134000" expanded="true" signature="287:5091" ph="{...}" />
@@ -330,6 +296,40 @@
             <marker date="1521295134000" expanded="true" signature="4571:5083" ph="{...}" />
             <marker date="1521295134000" expanded="true" signature="4683:4809" ph="{...}" />
             <marker date="1521295134000" expanded="true" signature="4826:4982" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DigitalSignatureAlgorithm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="169" column="51" lean-forward="true" selection-start-line="169" selection-start-column="51" selection-end-line="169" selection-end-column="51" />
+          <folding>
+            <marker date="1521296664000" expanded="false" signature="6:202" ph="..." />
+            <marker date="1521296664000" expanded="true" signature="217:5744" ph="{...}" />
+            <marker date="1521296664000" expanded="true" signature="224:287" ph="/// Класс, реализующий DSA ... " />
+            <marker date="1521296664000" expanded="true" signature="330:5742" ph="{...}" />
+            <marker date="1521296664000" expanded="true" signature="345:404" ph="/// Параметр q ... " />
+            <marker date="1521296664000" expanded="true" signature="450:509" ph="/// Параметр p ... " />
+            <marker date="1521296664000" expanded="true" signature="555:630" ph="/// Результат частного (p-1)/q ... " />
+            <marker date="1521296664000" expanded="true" signature="676:735" ph="/// Параметр g ... " />
+            <marker date="1521296664000" expanded="true" signature="781:843" ph="/// Закрытый ключ ... " />
+            <marker date="1521296664000" expanded="true" signature="889:948" ph="/// Параметр y ... " />
+            <marker date="1521296664000" expanded="true" signature="994:1059" ph="/// Проверка подписи ... " />
+            <marker date="1521296664000" expanded="true" signature="1109:1257" ph="/// DSA с параметрами q и p ... " />
+            <marker date="1521296664000" expanded="true" signature="1326:1579" ph="{...}" />
+            <marker date="1521296664000" expanded="true" signature="1589:1801" ph="/// Устанавливает рандомное значение заданного параметра, которое больше 0 и не превышает maxValue ... " />
+            <marker date="1521296664000" expanded="true" signature="1859:2384" ph="{...}" />
+            <marker date="1521296664000" expanded="true" signature="2394:2521" ph="/// Задать число g, такого, что  его мультипликативный порядок по модулю p равен q ... " />
+            <marker date="1521296664000" expanded="true" signature="2554:2784" ph="{...}" />
+            <marker date="1521296664000" expanded="true" signature="2794:2968" ph="/// Подпись сообщения ... " />
+            <marker date="1521296664000" expanded="true" signature="3028:3757" ph="{...}" />
+            <marker date="1521296664000" expanded="true" signature="3767:4002" ph="/// Проверка подписи ... " />
+            <marker date="1521296664000" expanded="true" signature="4073:4744" ph="{...}" />
+            <marker date="1521296664000" expanded="true" signature="4754:4962" ph="/// Получить параметр v ... " />
+            <marker date="1521296664000" expanded="true" signature="5029:5270" ph="{...}" />
+            <marker date="1521296664000" expanded="true" signature="5280:5439" ph="/// Получить хеш-код сообщения ... " />
+            <marker date="1521296664000" expanded="true" signature="5491:5736" ph="{...}" />
           </folding>
         </state>
       </provider>
