@@ -74,18 +74,10 @@ namespace DSA
         /// <param name="e"></param>
         private void Text_TextChanged(object sender, EventArgs e)
         {
-            if (text.Text.Length != 0)
+            Generate.Enabled = text.Text.Length != 0;
+            if (Generate.Enabled)
             {
-                Generate.Enabled = true;
-                if (gen.Text.Length != 0)
-                {
-                    Check.Enabled = true;
-                }
-            }
-            else
-            {
-                Generate.Enabled = false;
-                Check.Enabled = false;
+                Check.Enabled = gen.Text.Length != 0;
             }
         }
 
@@ -124,14 +116,10 @@ namespace DSA
             message.Visible = false;
             if (Q.Text.Length != 0)
             {
-                if (!BigInteger.TryParse(Q.Text, out _tmpQ))
-                {
-                    wrongQ.Visible = true;
-                }
-                else
+                wrongQ.Visible = !BigInteger.TryParse(Q.Text, out _tmpQ);
+                if (!wrongQ.Visible)
                 {
                     _paramQ = _tmpQ;
-                    wrongQ.Visible = false;
                 }
             }
             else
@@ -151,14 +139,10 @@ namespace DSA
             message.Visible = false;
             if (P.Text.Length != 0)
             {
-                if (!BigInteger.TryParse(P.Text, out _tmpP))
-                {
-                    wrongP.Visible = true;
-                }
-                else
+                wrongP.Visible = !BigInteger.TryParse(P.Text, out _tmpP);
+                if (wrongP.Visible)
                 {
                     _paramP = _tmpP;
-                    wrongP.Visible = false;
                 }
             }
             else
