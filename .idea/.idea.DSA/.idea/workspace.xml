@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab4c58bf-97e3-4d07-a8b6-80556af4f637" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DigitalSignatureAlgorithm.cs" afterPath="$PROJECT_DIR$/DigitalSignatureAlgorithm.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FormMain.cs" afterPath="$PROJECT_DIR$/FormMain.cs" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="FormMain.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FormMain.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+              <folding>
+                <marker date="1521294325000" expanded="false" signature="6:272" ph="..." />
+                <marker date="1521294325000" expanded="true" signature="287:5464" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="330:5462" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="345:404" ph="/// Параметр q ... " />
+                <marker date="1521294325000" expanded="true" signature="450:509" ph="/// Параметр p ... " />
+                <marker date="1521294325000" expanded="true" signature="555:630" ph="/// Результат частного (p-1)/q ... " />
+                <marker date="1521294325000" expanded="true" signature="676:758" ph="/// Заданный пользователем параметр q ... " />
+                <marker date="1521294325000" expanded="true" signature="802:884" ph="/// Заданный пользователем параметр p ... " />
+                <marker date="1521294325000" expanded="true" signature="928:993" ph="/// Цифровая подпись ... " />
+                <marker date="1521294325000" expanded="true" signature="1051:1131" ph="/// Инициализация компонентов формы ... " />
+                <marker date="1521294325000" expanded="true" signature="1157:1431" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="1441:1600" ph="/// Выбор пользовательских настроек ... " />
+                <marker date="1521294325000" expanded="true" signature="1674:1746" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="1756:1900" ph="/// Изменение текста ... " />
+                <marker date="1521294325000" expanded="true" signature="1966:2340" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="2015:2204" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="2112:2190" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="2221:2330" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="2350:2506" ph="/// Создание электронной подписи ... " />
+                <marker date="1521294325000" expanded="true" signature="2570:3203" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="2616:2795" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="2812:3193" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="3213:3362" ph="/// Изменение параметра q ... " />
+                <marker date="1521294325000" expanded="true" signature="3425:3949" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="3508:3814" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="3583:3662" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="3683:3800" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="3831:3939" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="3959:4108" ph="/// Изменение параметра p ... " />
+                <marker date="1521294325000" expanded="true" signature="4171:4717" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="4254:4560" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="4329:4408" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="4429:4546" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="4577:4707" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="4727:4883" ph="/// Проверка электронной подписи ... " />
+                <marker date="1521294325000" expanded="true" signature="4944:5456" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="5056:5182" ph="{...}" />
+                <marker date="1521294325000" expanded="true" signature="5199:5355" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DigitalSignatureAlgorithm.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DigitalSignatureAlgorithm.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+              <folding>
+                <marker date="1521294532000" expanded="false" signature="6:202" ph="..." />
+                <marker date="1521294532000" expanded="true" signature="217:5956" ph="{...}" />
+                <marker date="1521294532000" expanded="true" signature="224:287" ph="/// Класс, реализующий DSA ... " />
+                <marker date="1521294532000" expanded="true" signature="330:5954" ph="{...}" />
+                <marker date="1521294532000" expanded="true" signature="345:404" ph="/// Параметр q ... " />
+                <marker date="1521294532000" expanded="true" signature="449:508" ph="/// Параметр p ... " />
+                <marker date="1521294532000" expanded="true" signature="553:628" ph="/// Результат частного (p-1)/q ... " />
+                <marker date="1521294532000" expanded="true" signature="673:732" ph="/// Параметр g ... " />
+                <marker date="1521294532000" expanded="true" signature="777:839" ph="/// Закрытый ключ ... " />
+                <marker date="1521294532000" expanded="true" signature="884:943" ph="/// Параметр y ... " />
+                <marker date="1521294532000" expanded="true" signature="997:1062" ph="/// Проверка подписи ... " />
+                <marker date="1521294532000" expanded="true" signature="1112:1260" ph="/// DSA с параметрами q и p ... " />
+                <marker date="1521294532000" expanded="true" signature="1329:1582" ph="{...}" />
+                <marker date="1521294532000" expanded="true" signature="1592:1804" ph="/// Устанавливает рандомное значение заданного параметра, которое больше 0 и не превышает maxValue ... " />
+                <marker date="1521294532000" expanded="true" signature="1862:2387" ph="{...}" />
+                <marker date="1521294532000" expanded="true" signature="2396:2523" ph="/// Задать число g, такого, что  его мультипликативный порядок по модулю p равен q ... " />
+                <marker date="1521294532000" expanded="true" signature="2556:2798" ph="{...}" />
+                <marker date="1521294532000" expanded="true" signature="2807:2981" ph="/// Подпись сообщения ... " />
+                <marker date="1521294532000" expanded="true" signature="3048:3929" ph="{...}" />
+                <marker date="1521294532000" expanded="true" signature="3938:4173" ph="/// Проверка подписи ... " />
+                <marker date="1521294532000" expanded="true" signature="4244:4915" ph="{...}" />
+                <marker date="1521294532000" expanded="true" signature="4924:5132" ph="/// Получить параметр v ... " />
+                <marker date="1521294532000" expanded="true" signature="5199:5441" ph="{...}" />
+                <marker date="1521294532000" expanded="true" signature="5451:5610" ph="/// Получить хеш-код сообщения ... " />
+                <marker date="1521294532000" expanded="true" signature="5662:5948" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DigitalSignatureAlgorithm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FormMain.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FormMain.cs" />
+        <option value="$PROJECT_DIR$/DigitalSignatureAlgorithm.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DSA (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DSA" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab4c58bf-97e3-4d07-a8b6-80556af4f637" name="Default" comment="" />
+      <created>1521294105602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521294105602</updated>
+      <workItem from="1521294107002" duration="429000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="429000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FormMain.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+          <folding>
+            <marker date="1521294325000" expanded="false" signature="6:272" ph="..." />
+            <marker date="1521294325000" expanded="true" signature="287:5464" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="330:5462" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="345:404" ph="/// Параметр q ... " />
+            <marker date="1521294325000" expanded="true" signature="450:509" ph="/// Параметр p ... " />
+            <marker date="1521294325000" expanded="true" signature="555:630" ph="/// Результат частного (p-1)/q ... " />
+            <marker date="1521294325000" expanded="true" signature="676:758" ph="/// Заданный пользователем параметр q ... " />
+            <marker date="1521294325000" expanded="true" signature="802:884" ph="/// Заданный пользователем параметр p ... " />
+            <marker date="1521294325000" expanded="true" signature="928:993" ph="/// Цифровая подпись ... " />
+            <marker date="1521294325000" expanded="true" signature="1051:1131" ph="/// Инициализация компонентов формы ... " />
+            <marker date="1521294325000" expanded="true" signature="1157:1431" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="1441:1600" ph="/// Выбор пользовательских настроек ... " />
+            <marker date="1521294325000" expanded="true" signature="1674:1746" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="1756:1900" ph="/// Изменение текста ... " />
+            <marker date="1521294325000" expanded="true" signature="1966:2340" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="2015:2204" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="2112:2190" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="2221:2330" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="2350:2506" ph="/// Создание электронной подписи ... " />
+            <marker date="1521294325000" expanded="true" signature="2570:3203" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="2616:2795" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="2812:3193" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="3213:3362" ph="/// Изменение параметра q ... " />
+            <marker date="1521294325000" expanded="true" signature="3425:3949" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="3508:3814" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="3583:3662" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="3683:3800" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="3831:3939" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="3959:4108" ph="/// Изменение параметра p ... " />
+            <marker date="1521294325000" expanded="true" signature="4171:4717" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="4254:4560" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="4329:4408" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="4429:4546" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="4577:4707" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="4727:4883" ph="/// Проверка электронной подписи ... " />
+            <marker date="1521294325000" expanded="true" signature="4944:5456" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="5056:5182" ph="{...}" />
+            <marker date="1521294325000" expanded="true" signature="5199:5355" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DigitalSignatureAlgorithm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+          <folding>
+            <marker date="1521294532000" expanded="false" signature="6:202" ph="..." />
+            <marker date="1521294532000" expanded="true" signature="217:5956" ph="{...}" />
+            <marker date="1521294532000" expanded="true" signature="224:287" ph="/// Класс, реализующий DSA ... " />
+            <marker date="1521294532000" expanded="true" signature="330:5954" ph="{...}" />
+            <marker date="1521294532000" expanded="true" signature="345:404" ph="/// Параметр q ... " />
+            <marker date="1521294532000" expanded="true" signature="449:508" ph="/// Параметр p ... " />
+            <marker date="1521294532000" expanded="true" signature="553:628" ph="/// Результат частного (p-1)/q ... " />
+            <marker date="1521294532000" expanded="true" signature="673:732" ph="/// Параметр g ... " />
+            <marker date="1521294532000" expanded="true" signature="777:839" ph="/// Закрытый ключ ... " />
+            <marker date="1521294532000" expanded="true" signature="884:943" ph="/// Параметр y ... " />
+            <marker date="1521294532000" expanded="true" signature="997:1062" ph="/// Проверка подписи ... " />
+            <marker date="1521294532000" expanded="true" signature="1112:1260" ph="/// DSA с параметрами q и p ... " />
+            <marker date="1521294532000" expanded="true" signature="1329:1582" ph="{...}" />
+            <marker date="1521294532000" expanded="true" signature="1592:1804" ph="/// Устанавливает рандомное значение заданного параметра, которое больше 0 и не превышает maxValue ... " />
+            <marker date="1521294532000" expanded="true" signature="1862:2387" ph="{...}" />
+            <marker date="1521294532000" expanded="true" signature="2396:2523" ph="/// Задать число g, такого, что  его мультипликативный порядок по модулю p равен q ... " />
+            <marker date="1521294532000" expanded="true" signature="2556:2798" ph="{...}" />
+            <marker date="1521294532000" expanded="true" signature="2807:2981" ph="/// Подпись сообщения ... " />
+            <marker date="1521294532000" expanded="true" signature="3048:3929" ph="{...}" />
+            <marker date="1521294532000" expanded="true" signature="3938:4173" ph="/// Проверка подписи ... " />
+            <marker date="1521294532000" expanded="true" signature="4244:4915" ph="{...}" />
+            <marker date="1521294532000" expanded="true" signature="4924:5132" ph="/// Получить параметр v ... " />
+            <marker date="1521294532000" expanded="true" signature="5199:5441" ph="{...}" />
+            <marker date="1521294532000" expanded="true" signature="5451:5610" ph="/// Получить хеш-код сообщения ... " />
+            <marker date="1521294532000" expanded="true" signature="5662:5948" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

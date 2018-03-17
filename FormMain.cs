@@ -18,26 +18,32 @@ namespace DSA
         /// Параметр q
         /// </summary>
         private BigInteger _paramQ;
+
         /// <summary>
         /// Параметр p
         /// </summary>
         private BigInteger _paramP;
+
         /// <summary>
         /// Результат частного (p-1)/q
         /// </summary>
         private BigInteger _paramT;
+
         /// <summary>
         /// Заданный пользователем параметр q
         /// </summary>
         private BigInteger _tmpQ;
+
         /// <summary>
         /// Заданный пользователем параметр p
         /// </summary>
         private BigInteger _tmpP;
+
         /// <summary>
         /// Цифровая подпись
         /// </summary>
         private DigitalSignatureAlgorithm _DSA;
+
         /// <summary>
         /// Инициализация компонентов формы
         /// </summary>
@@ -48,8 +54,9 @@ namespace DSA
             _tmpQ = BigInteger.Zero;
             _paramQ = new BigInteger(142433);
             _paramT = new BigInteger(6);
-            _paramP = _paramQ * _paramT + BigInteger.One;        
+            _paramP = _paramQ * _paramT + BigInteger.One;
         }
+
         /// <summary>
         /// Выбор пользовательских настроек
         /// </summary>
@@ -57,15 +64,9 @@ namespace DSA
         /// <param name="e"></param>
         private void UserInput_CheckedChanged(object sender, EventArgs e)
         {
-            if (userInput.Checked)
-            {
-                userParams.Enabled = true;
-            }
-            else
-            {
-                userParams.Enabled = false;
-            }
+            userParams.Enabled = userInput.Checked;
         }
+
         /// <summary>
         /// Изменение текста
         /// </summary>
@@ -87,6 +88,7 @@ namespace DSA
                 Check.Enabled = false;
             }
         }
+
         /// <summary>
         /// Создание электронной подписи
         /// </summary>
@@ -97,7 +99,7 @@ namespace DSA
             if (_paramP <= _paramQ)
             {
                 message.Text = "Неверно заданы параметры";
-                message.ForeColor = System.Drawing.Color.DeepPink;
+                message.ForeColor = Color.DeepPink;
                 message.Visible = true;
             }
             else
@@ -105,12 +107,13 @@ namespace DSA
                 P.Text = _paramP.ToString();
                 Q.Text = _paramQ.ToString();
                 _DSA = new DigitalSignatureAlgorithm(_paramQ, _paramP);
-                StringBuilder SB = _DSA.GenerateDigitalSignature(text.Text);
+                StringBuilder sb = _DSA.GenerateDigitalSignature(text.Text);
                 gen.Clear();
-                gen.AppendText(SB.ToString());
+                gen.AppendText(sb.ToString());
                 Check.Enabled = true;
             }
         }
+
         /// <summary>
         /// Изменение параметра q
         /// </summary>
@@ -130,7 +133,6 @@ namespace DSA
                     _paramQ = _tmpQ;
                     wrongQ.Visible = false;
                 }
-
             }
             else
             {
@@ -138,6 +140,7 @@ namespace DSA
                 wrongQ.Visible = false;
             }
         }
+
         /// <summary>
         /// Изменение параметра p
         /// </summary>
@@ -157,7 +160,6 @@ namespace DSA
                     _paramP = _tmpP;
                     wrongP.Visible = false;
                 }
-
             }
             else
             {
@@ -165,6 +167,7 @@ namespace DSA
                 wrongP.Visible = false;
             }
         }
+
         /// <summary>
         /// Проверка электронной подписи
         /// </summary>
@@ -172,21 +175,20 @@ namespace DSA
         /// <param name="e"></param>
         private void Check_Click(object sender, EventArgs e)
         {
-            string SB = _DSA.CheckDigitalSignature(text.Text, gen.Lines);
-            if(_DSA.Check == true)
+            string sb = _DSA.CheckDigitalSignature(text.Text, gen.Lines);
+            if (_DSA.Check)
             {
                 message.Text = "Текст корректен";
-                message.ForeColor = System.Drawing.Color.Blue;
-                message.Visible = true;
+                message.ForeColor = Color.Blue;
             }
             else
             {
                 message.Text = "Текст был изменен или неверно заданы параметры";
-                message.ForeColor = System.Drawing.Color.Red;
-                message.Visible = true;
+                message.ForeColor = Color.Red;
             }
+            message.Visible = true;
             ch.Clear();
-            ch.AppendText(SB.ToString());
+            ch.AppendText(sb);
         }
     }
 }
