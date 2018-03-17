@@ -99,9 +99,9 @@ namespace DSA
                 P.Text = _paramP.ToString();
                 Q.Text = _paramQ.ToString();
                 _DSA = new DigitalSignatureAlgorithm(_paramQ, _paramP);
-                StringBuilder sb = _DSA.GenerateDigitalSignature(text.Text);
+                String digitalSignature = _DSA.GenerateDigitalSignature(text.Text);
                 gen.Clear();
-                gen.AppendText(sb.ToString());
+                gen.AppendText(digitalSignature);
                 Check.Enabled = true;
             }
         }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4c58bf-97e3-4d07-a8b6-80556af4f637" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DigitalSignatureAlgorithm.cs" afterPath="$PROJECT_DIR$/DigitalSignatureAlgorithm.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FormMain.cs" afterPath="$PROJECT_DIR$/FormMain.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,56 +14,56 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FormMain.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FormMain.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FormMain.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-552">
-              <caret line="103" column="18" lean-forward="false" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+            <state relative-caret-position="91">
+              <caret line="101" column="55" lean-forward="false" selection-start-line="101" selection-start-column="55" selection-end-line="101" selection-end-column="55" />
               <folding>
-                <marker date="1521295134000" expanded="false" signature="6:272" ph="..." />
-                <marker date="1521295134000" expanded="true" signature="287:5091" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="330:5089" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="345:404" ph="/// Параметр q ... " />
-                <marker date="1521295134000" expanded="true" signature="450:509" ph="/// Параметр p ... " />
-                <marker date="1521295134000" expanded="true" signature="555:630" ph="/// Результат частного (p-1)/q ... " />
-                <marker date="1521295134000" expanded="true" signature="676:758" ph="/// Заданный пользователем параметр q ... " />
-                <marker date="1521295134000" expanded="true" signature="802:884" ph="/// Заданный пользователем параметр p ... " />
-                <marker date="1521295134000" expanded="true" signature="928:993" ph="/// Цифровая подпись ... " />
-                <marker date="1521295134000" expanded="true" signature="1051:1131" ph="/// Инициализация компонентов формы ... " />
-                <marker date="1521295134000" expanded="true" signature="1157:1431" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="1441:1600" ph="/// Выбор пользовательских настроек ... " />
-                <marker date="1521295134000" expanded="true" signature="1674:1746" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="1756:1900" ph="/// Изменение текста ... " />
-                <marker date="1521295134000" expanded="true" signature="1966:2156" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="2064:2146" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="2166:2322" ph="/// Создание электронной подписи ... " />
-                <marker date="1521295134000" expanded="true" signature="2386:3019" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="2432:2611" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="2628:3009" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="3029:3178" ph="/// Изменение параметра q ... " />
-                <marker date="1521295134000" expanded="true" signature="3241:3671" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="3324:3536" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="3449:3522" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="3553:3661" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="3681:3830" ph="/// Изменение параметра p ... " />
-                <marker date="1521295134000" expanded="true" signature="3893:4344" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="3976:4187" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="4100:4173" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="4204:4334" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="4354:4510" ph="/// Проверка электронной подписи ... " />
-                <marker date="1521295134000" expanded="true" signature="4571:5083" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="4683:4809" ph="{...}" />
-                <marker date="1521295134000" expanded="true" signature="4826:4982" ph="{...}" />
+                <marker date="1521296708000" expanded="false" signature="6:272" ph="..." />
+                <marker date="1521296708000" expanded="true" signature="287:5101" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="330:5099" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="345:404" ph="/// Параметр q ... " />
+                <marker date="1521296708000" expanded="true" signature="450:509" ph="/// Параметр p ... " />
+                <marker date="1521296708000" expanded="true" signature="555:630" ph="/// Результат частного (p-1)/q ... " />
+                <marker date="1521296708000" expanded="true" signature="676:758" ph="/// Заданный пользователем параметр q ... " />
+                <marker date="1521296708000" expanded="true" signature="802:884" ph="/// Заданный пользователем параметр p ... " />
+                <marker date="1521296708000" expanded="true" signature="928:993" ph="/// Цифровая подпись ... " />
+                <marker date="1521296708000" expanded="true" signature="1051:1131" ph="/// Инициализация компонентов формы ... " />
+                <marker date="1521296708000" expanded="true" signature="1157:1431" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="1441:1600" ph="/// Выбор пользовательских настроек ... " />
+                <marker date="1521296708000" expanded="true" signature="1674:1746" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="1756:1900" ph="/// Изменение текста ... " />
+                <marker date="1521296708000" expanded="true" signature="1966:2156" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="2064:2146" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="2166:2322" ph="/// Создание электронной подписи ... " />
+                <marker date="1521296708000" expanded="true" signature="2386:3029" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="2432:2611" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="2628:3019" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="3039:3188" ph="/// Изменение параметра q ... " />
+                <marker date="1521296708000" expanded="true" signature="3251:3681" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="3334:3546" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="3459:3532" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="3563:3671" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="3691:3840" ph="/// Изменение параметра p ... " />
+                <marker date="1521296708000" expanded="true" signature="3903:4354" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="3986:4197" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="4110:4183" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="4214:4344" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="4364:4520" ph="/// Проверка электронной подписи ... " />
+                <marker date="1521296708000" expanded="true" signature="4581:5093" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="4693:4819" ph="{...}" />
+                <marker date="1521296708000" expanded="true" signature="4836:4992" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DigitalSignatureAlgorithm.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DigitalSignatureAlgorithm.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DigitalSignatureAlgorithm.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="169" column="51" lean-forward="true" selection-start-line="169" selection-start-column="51" selection-end-line="169" selection-end-column="51" />
+            <state relative-caret-position="120">
+              <caret line="102" column="46" lean-forward="false" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="46" />
               <folding>
                 <marker date="1521296664000" expanded="false" signature="6:202" ph="..." />
                 <marker date="1521296664000" expanded="true" signature="217:5744" ph="{...}" />
@@ -107,8 +107,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FormMain.cs" />
         <option value="$PROJECT_DIR$/DigitalSignatureAlgorithm.cs" />
+        <option value="$PROJECT_DIR$/FormMain.cs" />
       </list>
     </option>
   </component>
@@ -208,12 +208,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521294105602</updated>
-      <workItem from="1521294107002" duration="1206000" />
+      <workItem from="1521294107002" duration="1258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1206000" />
+    <option name="totallyTimeSpent" value="1258000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,53 +257,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FormMain.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-552">
-          <caret line="103" column="18" lean-forward="false" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
-          <folding>
-            <marker date="1521295134000" expanded="false" signature="6:272" ph="..." />
-            <marker date="1521295134000" expanded="true" signature="287:5091" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="330:5089" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="345:404" ph="/// Параметр q ... " />
-            <marker date="1521295134000" expanded="true" signature="450:509" ph="/// Параметр p ... " />
-            <marker date="1521295134000" expanded="true" signature="555:630" ph="/// Результат частного (p-1)/q ... " />
-            <marker date="1521295134000" expanded="true" signature="676:758" ph="/// Заданный пользователем параметр q ... " />
-            <marker date="1521295134000" expanded="true" signature="802:884" ph="/// Заданный пользователем параметр p ... " />
-            <marker date="1521295134000" expanded="true" signature="928:993" ph="/// Цифровая подпись ... " />
-            <marker date="1521295134000" expanded="true" signature="1051:1131" ph="/// Инициализация компонентов формы ... " />
-            <marker date="1521295134000" expanded="true" signature="1157:1431" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="1441:1600" ph="/// Выбор пользовательских настроек ... " />
-            <marker date="1521295134000" expanded="true" signature="1674:1746" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="1756:1900" ph="/// Изменение текста ... " />
-            <marker date="1521295134000" expanded="true" signature="1966:2156" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="2064:2146" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="2166:2322" ph="/// Создание электронной подписи ... " />
-            <marker date="1521295134000" expanded="true" signature="2386:3019" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="2432:2611" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="2628:3009" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="3029:3178" ph="/// Изменение параметра q ... " />
-            <marker date="1521295134000" expanded="true" signature="3241:3671" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="3324:3536" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="3449:3522" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="3553:3661" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="3681:3830" ph="/// Изменение параметра p ... " />
-            <marker date="1521295134000" expanded="true" signature="3893:4344" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="3976:4187" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="4100:4173" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="4204:4334" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="4354:4510" ph="/// Проверка электронной подписи ... " />
-            <marker date="1521295134000" expanded="true" signature="4571:5083" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="4683:4809" ph="{...}" />
-            <marker date="1521295134000" expanded="true" signature="4826:4982" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DigitalSignatureAlgorithm.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="169" column="51" lean-forward="true" selection-start-line="169" selection-start-column="51" selection-end-line="169" selection-end-column="51" />
+        <state relative-caret-position="120">
+          <caret line="102" column="46" lean-forward="false" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="46" />
           <folding>
             <marker date="1521296664000" expanded="false" signature="6:202" ph="..." />
             <marker date="1521296664000" expanded="true" signature="217:5744" ph="{...}" />
@@ -330,6 +287,49 @@
             <marker date="1521296664000" expanded="true" signature="5029:5270" ph="{...}" />
             <marker date="1521296664000" expanded="true" signature="5280:5439" ph="/// Получить хеш-код сообщения ... " />
             <marker date="1521296664000" expanded="true" signature="5491:5736" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FormMain.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="101" column="55" lean-forward="false" selection-start-line="101" selection-start-column="55" selection-end-line="101" selection-end-column="55" />
+          <folding>
+            <marker date="1521296708000" expanded="false" signature="6:272" ph="..." />
+            <marker date="1521296708000" expanded="true" signature="287:5101" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="330:5099" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="345:404" ph="/// Параметр q ... " />
+            <marker date="1521296708000" expanded="true" signature="450:509" ph="/// Параметр p ... " />
+            <marker date="1521296708000" expanded="true" signature="555:630" ph="/// Результат частного (p-1)/q ... " />
+            <marker date="1521296708000" expanded="true" signature="676:758" ph="/// Заданный пользователем параметр q ... " />
+            <marker date="1521296708000" expanded="true" signature="802:884" ph="/// Заданный пользователем параметр p ... " />
+            <marker date="1521296708000" expanded="true" signature="928:993" ph="/// Цифровая подпись ... " />
+            <marker date="1521296708000" expanded="true" signature="1051:1131" ph="/// Инициализация компонентов формы ... " />
+            <marker date="1521296708000" expanded="true" signature="1157:1431" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="1441:1600" ph="/// Выбор пользовательских настроек ... " />
+            <marker date="1521296708000" expanded="true" signature="1674:1746" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="1756:1900" ph="/// Изменение текста ... " />
+            <marker date="1521296708000" expanded="true" signature="1966:2156" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="2064:2146" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="2166:2322" ph="/// Создание электронной подписи ... " />
+            <marker date="1521296708000" expanded="true" signature="2386:3029" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="2432:2611" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="2628:3019" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="3039:3188" ph="/// Изменение параметра q ... " />
+            <marker date="1521296708000" expanded="true" signature="3251:3681" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="3334:3546" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="3459:3532" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="3563:3671" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="3691:3840" ph="/// Изменение параметра p ... " />
+            <marker date="1521296708000" expanded="true" signature="3903:4354" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="3986:4197" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="4110:4183" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="4214:4344" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="4364:4520" ph="/// Проверка электронной подписи ... " />
+            <marker date="1521296708000" expanded="true" signature="4581:5093" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="4693:4819" ph="{...}" />
+            <marker date="1521296708000" expanded="true" signature="4836:4992" ph="{...}" />
           </folding>
         </state>
       </provider>
