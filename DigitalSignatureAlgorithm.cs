@@ -127,7 +127,7 @@ namespace DSA
             }
             while (s == BigInteger.Zero);
 
-            return $"r = {r}\ns = {s}";
+            return $"r = {r}\r\ns = {s}";
         }
 
         /// <summary>
