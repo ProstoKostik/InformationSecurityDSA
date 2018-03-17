@@ -168,7 +168,7 @@ namespace DSA
             BigInteger v2 = BigInteger.ModPow(_paramY, u2, _paramP);
             BigInteger v3 = (v1 * v2) % _paramP;
 
-            return (v1 * v2) % _paramP;
+            return v3 % _paramQ; 
         }
 
         /// <summary>
