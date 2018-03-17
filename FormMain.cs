@@ -172,7 +172,19 @@ namespace DSA
         /// <param name="e"></param>
         private void Check_Click(object sender, EventArgs e)
         {
-            StringBuilder SB = _DSA.CheckDigitalSignature(text.Text, gen.Lines, ref message);
+            string SB = _DSA.CheckDigitalSignature(text.Text, gen.Lines);
+            if(_DSA.Check == true)
+            {
+                message.Text = "Текст корректен";
+                message.ForeColor = System.Drawing.Color.Blue;
+                message.Visible = true;
+            }
+            else
+            {
+                message.Text = "Текст был изменен или неверно заданы параметры";
+                message.ForeColor = System.Drawing.Color.Red;
+                message.Visible = true;
+            }
             ch.Clear();
             ch.AppendText(SB.ToString());
         }

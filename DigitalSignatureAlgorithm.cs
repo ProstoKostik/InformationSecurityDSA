@@ -38,6 +38,10 @@ namespace DSA
         /// Параметр y
         /// </summary>
         private BigInteger _paramY;
+        /// <summary>
+        /// Проверка подписи
+        /// </summary>
+        private bool _check;
 
         /// <summary>
         /// DSA с параметрами q и p
@@ -125,13 +129,13 @@ namespace DSA
         /// </summary>
         /// <param name="text">Текст для проверки </param>
         /// <param name="key">Ключ</param>
-        /// <param name="message">Сообщение</param>
         /// <returns>Результат проверки по внешнему ключу</returns>
-        public StringBuilder CheckDigitalSignature(string text, string[] key, ref Label message)
+        public string CheckDigitalSignature(string text, string[] key)
         {
             BigInteger r = BigInteger.Parse(key[0].Substring(4));
             BigInteger s = BigInteger.Parse(key[1].Substring(4));
             BigInteger H = GetHashCode(text);
+            string vValue = "";
            
             //Вычисление параметра w
             BigInteger w = BigInteger.ModPow(s, _paramQ - 2, _paramQ);
@@ -144,17 +148,14 @@ namespace DSA
             //Если параметр v = r, то подпись верна
             if (v == r)
             {
-                message.Text = "Текст корректен";
-                message.ForeColor = System.Drawing.Color.Blue;
-                message.Visible = true;
+                Check = true; 
             }
             else
             {
-                message.Text = "Текст был изменен или неверно заданы параметры";
-                message.ForeColor = System.Drawing.Color.Red;
-                message.Visible = true;
+                Check = false;
             }
-            return new StringBuilder("v = " + v.ToString());
+            vValue = string.Format("v = {0}" , v);
+            return vValue;
         }
         /// <summary>
         /// Получить параметр v
@@ -184,6 +185,14 @@ namespace DSA
 
             BigInteger result = hashINT & _paramQ;
             return result;
+        }
+        /// <summary>
+        /// Проверка подписи
+        /// </summary>
+        public bool Check
+        {
+            get { return _check; } 
+            set { _check = value; }
         }
 
     }
